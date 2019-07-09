@@ -1,26 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ContentWithScroll from '../src/components/ContentWithScroll/contentWithScroll';
+import Item from '../src/components/Item/item';
 
-function App() {
+export default function() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ContentWithScroll query="lapicera" component={Item} />
   );
 }
-
-export default App;
