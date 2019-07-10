@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1be65aff506b210fd470e69b189ff3a0",
+    "revision": "cf47920b1c57a06a434c9e2ebbf860fd",
     "url": "/poc-infinite-scroll/index.html"
   },
   {
-    "revision": "7e6c615fd6855884637a",
+    "revision": "09b950927afdcb80db6c",
     "url": "/poc-infinite-scroll/static/css/main.028d9f1e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poc-infinite-scroll/static/js/2.fc609788.chunk.js"
   },
   {
-    "revision": "7e6c615fd6855884637a",
-    "url": "/poc-infinite-scroll/static/js/main.e7add686.chunk.js"
+    "revision": "09b950927afdcb80db6c",
+    "url": "/poc-infinite-scroll/static/js/main.25ec0be7.chunk.js"
   },
   {
     "revision": "d4cb09bc26d70a2cc808",
