@@ -4,6 +4,6 @@ import Item from '../src/components/Item/item';
 
 export default function() {
   return (
-    <ContentWithScroll query="lapicera" component={Item} />
+    <ContentWithScroll query="iphone" component={Item} />
   );
 }

@@ -22,7 +22,7 @@ export default class ContentWithScroll extends PureComponent {
    */
   async componentDidMount() {
     const { data: { paging: { total, offset }, results } } = await this.getItems(this.props.query);
-    this.setState({ results, hasMore: true, total, offset });
+    this.setState({ results, hasMore: results.length > 0, total, offset });
   }
 
   /**
